@@ -1,0 +1,55 @@
+.response {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.first, p, h2, .userBar, .grantBar {
+  text-align: center;
+}
+.box {
+  border-style: solid;
+  margin: auto;
+  width: 800px;
+}
+.computerInfo {
+  position: relative;
+  left: 100px;
+  width: auto;
+  line-height: 150%;
+}
+button {
+  background-color: teal;
+  border-style: none;
+  width: 90px;
+  font-weight: bold;
+  color: WhiteSmoke;
+}
+* {
+  font-family: sans-serif;
+}
+.health {
+  position: relative;
+  right: 80px;
+}
+.wins {
+  position: relative;
+  left: 70px;
+}
+body {
+  background-color: lightblue;
+}
+.playerInfo {
+  padding-left: 20px;
+  line-height: 150%;
+}
+.grantBar {
+  position: relative;
+  bottom: 30px;
+}
+progress {
+  background-color: teal;
+}
+.userBar {
+  position: relative;
+  bottom: 30px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="Stylesheet.css" type="text/css" rel="Stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div id="start-wrapper"class="first">
+      <button id="startButton" class="start">START</button>
+    </div>
+    <div id="game-wrapper" style="display:none">
+    <div class="response">
+      <button id="attackButton" class="attack">ATTACK</button>
+      <button id="healButton" class="heal">HEAL</button>
+      <button id="quitButton" class="heal">QUIT</button>
+    </div>
+    <div>
+      <p id="updateArea"></p>
+    </div>
+    <div class="box">
+      <div>
+        <h2>Player Stats</h2>
+      </div>
+        <div class="playerInfo">
+          <div>Name</div>
+          <div id="playerName"></div>
+        </div>
+        <div class="userBar">
+          <span class="health">Health</span>
+          <span class="healCount">Heal Count</span>
+          <span class="wins">Wins</span>
+        </div>
+        <div class="userBar">
+          <progress class="player" value="40" max="40"></progress>
+          <progress class="player" value="2" max="2"></progress>
+          <progress class="player" value="0" max="5"></progress>
+        </div>
+        <div>
+          <h2>Enemy Stats</h2>
+        </div>
+        <div class="computerInfo">
+          <div>Name</div>
+          <div>Grant</div>
+        </div>
+        <div class="grantBar">
+          <span class="grantHealth">Health</span>
+        </div>
+        <div class="grantBar">
+          <progress class="computer" value="10" max="10"></progress>
+        </div>
+      </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
